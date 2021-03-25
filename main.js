@@ -111,3 +111,4 @@ progress.addEventListener(
 progress.addEventListener("mousedown", () => (mousedown = true));
 progress.addEventListener("mouseup", () => (mousedown = false));
 skipButtons.forEach((button) => button.addEventListener("click", skipSeconds));
+
